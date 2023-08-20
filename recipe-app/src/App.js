@@ -1,8 +1,10 @@
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar.js";
+
 
 function App() {
   return (
     <div className="navbar">
+      <Navbar />
     
     </div>
   );

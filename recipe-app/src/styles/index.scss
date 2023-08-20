@@ -17,11 +17,41 @@
 
 body{
     font-size: var(--font-size);
+    font-family: 'Roboto', sans-serif;
 }
-.navbar{
-    height: 55px;
-    // background-color: black;
-    box-shadow: 0 3px 6px var(--primary-color);
+
+a{
+    text-decoration: none;
+}
+
+
+.navbar {
     background-color: var(--background-color);
     color: var(--text-color);
+    box-shadow: 0 3px 6px var(--shadow-color);
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 15vw;
+        height: 55px;
+    }
+    .logo {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: var(--primary-color);
+    }
+    .navbar_links {
+        display: flex;
+        align-items: center;
+        a {
+            margin-left: 1em; 
+            color: var(--text-light);
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+    }
 }
+
+
+
